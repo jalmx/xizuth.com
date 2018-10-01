@@ -4,7 +4,10 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "public/ohms-law/.*",
+      "public/ohms-law/**.md",
+      "public/ohms-law/.config"
     ]
   }
 }
