@@ -1,0 +1,23 @@
+ .card {
+     box-shadow: 1px 1px 10px var(--color-black);
+     width: 320px;
+     display: flex;
+     flex-direction: column;
+     &__pic {}
+     &__img {
+         background: black;
+     }
+     &__title,
+     &__description {
+         padding: .5rem 1rem;
+     }
+     &__description {
+         overflow: hidden;
+         word-wrap: break-word;
+         text-overflow: ellipsis;
+     }
+     &__footer {
+         padding: .5rem 1rem;
+         border-top: 1px solid gray;
+     }
+ }

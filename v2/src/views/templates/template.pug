@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    include modules/meta
+    include modules/icon
+    include modules/og
+    //- include modules/analityc
+    link(href='/css/style.css', rel='stylesheet')
+    title #{title} | Xizuth | Xizuth Inc
+  body
+    block header
+    block main
+    block footer
+      include body/footer 
+    block scripts
+      include body/script

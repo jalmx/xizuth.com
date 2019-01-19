@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: calc(100vh / 1.62);
+    min-height: 500px;
+    &__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        padding-top: 3rem;
+    }
+}
+
+.header {
+    &__img {
+        width: 300px;
+    }
+    &__title {
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+    }
+    &__title,
+    &__copy {
+        color: var(--accent-color);
+        padding: .5rem;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+    &__copy {
+        font-size: 1.6rem;
+    }
+}
