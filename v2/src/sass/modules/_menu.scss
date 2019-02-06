@@ -5,11 +5,8 @@
 .menu {
     display: flex;
     justify-content: space-around;
-    &__item {
-        list-style: none;
-    }
+    &__item {}
     &__link {
-        text-decoration: none;
         color: var(--color-black);
         display: block;
         width: 100%;
@@ -23,3 +20,5 @@
         }
     }
 }
+
+// menu sticky

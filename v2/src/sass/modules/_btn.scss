@@ -2,13 +2,17 @@
     border-radius: 5px;
     display: inline-block;
     padding: .5rem 1rem;
-    text-decoration: none;
     color: white;
     font-size: 1rem;
+    font-weight: normal;
     background: var(--primary-color);
 }
 
 .btn-accent {
     color: white;
     background: var(--accent-color);
+}
+
+.btn-elevation {
+    box-shadow: 1px 1px 10px #333;
 }

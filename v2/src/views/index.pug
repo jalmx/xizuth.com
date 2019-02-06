@@ -2,13 +2,6 @@ extends templates/template.pug
 block header
   include templates/body/header
 block main
-  section.container-section
-    h1.container-section__title Cursos
-    .container-section__cards
-      .card
-        picture.card__pic
-          img(src="img/xizuth_logo.svg", alt="").card__img
-          h1.card__title Curso de Android
-        p.card__description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis itaque amet, odit sed deleniti doloremque
-        footer.card__footer
-          a(href="#").btn.btn-accent Incribirme
+  include templates/sections/section
+  include templates/sections/section
+  include templates/sections/section
